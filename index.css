@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding:1rem 0 1rem 0;
+    background-image: linear-gradient(355deg, #fff86c 0, #ffdb47 25%, #edb90c 50%, #d89700 75%, #c87b00 100%);
+    position: fixed;
+}
+section{
+    display: flex;
+    justify-content: center;
+    
+}
+header .lupa{
+    width: 30px;
+    height: 30px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/220px-Hamburger_icon.svg.png");
+    background-size: contain;
+    margin: 0 30px 0 0px;
+}
+header .carrito{
+    width: 30px;
+    height: 30px;
+    background-image: url("https://i.pinimg.com/originals/62/50/21/625021c6df58daf10f8d52c2728f1c32.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 15px 0 15px;
+}
+header .buscar{
+    outline: none;
+    border-radius: 10px;
+    height: 30px;
+    border: 1px solid #DEDEDE;
+}
+.section2{
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    align-self: center;
+}
+.main{
+    background-image: url("./polar-pizza.png");
+    background-size: cover;
+    width: 130px;
+    height: 130px;
+    background-repeat: no-repeat;
+    align-self: center;
+    margin-top:30px;
+    
+}
+h2{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 30px;
+}
+.boton-crear{
+    text-decoration: none;
+    align-self: center;
+    background-color: #ee442b ;
+    width: 120px;
+    height: 25px;
+    text-align: center;
+    border-radius: 7px;
+    font-weight: 500;
+    color: #ffff;
+    margin-top: 20px;
+    transition: 300ms;
+}
+article{
+    margin: 30px 0 20px 0;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 200px;
+    height: 200px;
+    max-width:300px;
+
+}
+h3{
+    margin-bottom: 0;
+}
+.boton-pizza{
+    text-decoration: none;
+    align-self: center;
+    background-color: #f3c31e ;
+    width: 120px;
+    height: 25px;
+    text-align: center;
+    border-radius: 7px;
+    font-weight: 500;
+    color: #ffff;
+    margin-top: 20px;
+    
+}
+.section3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section3 img{
+    width: 200px;
+    height: 200px;
+}
+footer{
+    width: 100%;
+    height: 70px;
+    background-image: linear-gradient(355deg, #fff86c 0, #ffdb47 25%, #edb90c 50%, #d89700 75%, #c87b00 100%);
+}
